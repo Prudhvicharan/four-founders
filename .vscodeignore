@@ -4,6 +4,7 @@
 src/**
 scripts/**
 preview/**
+showcase/**
 images/**
 !images/icon.png
 *.vsix

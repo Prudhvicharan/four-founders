@@ -8,8 +8,8 @@
 </p>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=prudhvicharan.four-founders"><img src="https://img.shields.io/visual-studio-marketplace/v/prudhvicharan.four-founders?style=flat-square&label=marketplace&color=C9A96E" alt="Marketplace version"></a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=prudhvicharan.four-founders"><img src="https://img.shields.io/visual-studio-marketplace/i/prudhvicharan.four-founders?style=flat-square&color=2A6B50" alt="Installs"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=prudhvicharan.four-founders"><img src="https://img.shields.io/badge/VS%20Code-Marketplace-C9A96E?style=flat-square" alt="VS Code Marketplace"></a>
+  <img src="https://img.shields.io/badge/themes-8-2A6B50?style=flat-square" alt="8 themes">
   <a href="https://github.com/Prudhvicharan/four-founders/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-34589A?style=flat-square" alt="MIT license"></a>
 </p>
 
@@ -126,7 +126,7 @@ These are the rules I held myself to while designing these themes.
 - **No pitch black, no paper white.** Dark themes sit on soft charcoal. Light themes sit on ivory, mint or cream.
 - **Colors you can tell apart.** Keywords, functions, strings, types and numbers each get their own clearly different color, and each house has its own mix.
 - **Readable, and checked.** Every code color passes WCAG AA contrast (4.5:1) on the editor background and on the current-line highlight. The build fails if one doesn't.
-- **Nothing fake.** Every color in these screenshots comes from the actual theme files. What you see is what you install.
+- **Nothing fake.** Every screenshot here is real VS Code running the published theme, opened on a small Hogwarts-flavored project that lives in [`showcase/`](showcase). What you see is what you install.
 
 Everything is themed: syntax and semantic highlighting, terminal colors, Git decorations and diffs, IntelliSense, hovers, peek views, the command palette, the debugger, test results, the minimap and bracket pairs.
 
@@ -153,6 +153,7 @@ Press **F5** in VS Code to open a window with the themes loaded.
 | `src/palettes.js` | The colors for every house. Start here. |
 | `src/theme.js` | Maps a palette onto every surface VS Code exposes. |
 | `scripts/build.js` | Writes `themes/*.json`, syncs `package.json` and audits contrast. |
+| `showcase/` | The sample project used for the screenshots. Open it to test every language at once. |
 
 Found a token that looks off? Run **Developer: Inspect Editor Tokens and Scopes** on it and [open an issue](https://github.com/Prudhvicharan/four-founders/issues) with a screenshot. Pull requests are welcome.
 

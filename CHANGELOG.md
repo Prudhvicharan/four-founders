@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1
+
+- The README screenshots are now real VS Code captures, taken on a new sample project in `showcase/`.
+- The retired Marketplace badges are replaced.
+
 ## 1.0.0
 
 The first release.

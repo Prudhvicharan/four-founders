@@ -1,0 +1,6 @@
+{
+  "godric": { "colors": ["wine", "gold"], "element": "fire", "open": true },
+  "salazar": { "colors": ["emerald", "silver"], "element": "water", "open": true },
+  "rowena": { "colors": ["sapphire", "bronze"], "element": "air", "riddle": "What comes first?" },
+  "helga": { "colors": ["honey", "black"], "element": "earth", "seats": 280 }
+}

@@ -1,0 +1,17 @@
+:root {
+  --banner: #5c262c;
+  --fire-glow: rgba(224, 181, 94, 0.35);
+}
+
+.common-room > .fireplace:hover {
+  box-shadow: 0 0 48px 12px var(--fire-glow);
+  transform: scale(1.02);
+  transition: box-shadow 400ms ease-in-out;
+}
+
+@media (prefers-color-scheme: dark) {
+  .armchair::before {
+    content: "occupied";
+    font: italic 600 1rem/1.4 Georgia, serif;
+  }
+}
