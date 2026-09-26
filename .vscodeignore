@@ -1,0 +1,9 @@
+.vscode/**
+.github/**
+.gitignore
+src/**
+scripts/**
+preview/**
+images/**
+!images/icon.png
+*.vsix

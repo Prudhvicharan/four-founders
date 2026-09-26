@@ -1,0 +1,95 @@
+{
+  "name": "four-founders",
+  "displayName": "Four Founders",
+  "description": "Eight themes inspired by the four Hogwarts houses, named for their founders: Godric, Salazar, Rowena and Helga, each in dark and light.",
+  "version": "1.0.0",
+  "publisher": "prudhvicharan",
+  "author": {
+    "name": "Sai Prudhvi Charan Pothumsetty",
+    "url": "https://github.com/Prudhvicharan"
+  },
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "light theme",
+    "harry potter",
+    "hogwarts",
+    "gryffindor",
+    "slytherin",
+    "ravenclaw",
+    "hufflepuff",
+    "wizard",
+    "pastel",
+    "matte",
+    "monokai",
+    "cozy"
+  ],
+  "galleryBanner": {
+    "color": "#1F1D1B",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/Prudhvicharan/four-founders#readme",
+  "bugs": {
+    "url": "https://github.com/Prudhvicharan/four-founders/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Prudhvicharan/four-founders.git"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "package": "npm run build && npx @vscode/vsce package"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Four Founders Godric Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/godric-dark-color-theme.json"
+      },
+      {
+        "label": "Four Founders Godric Light",
+        "uiTheme": "vs",
+        "path": "./themes/godric-light-color-theme.json"
+      },
+      {
+        "label": "Four Founders Salazar Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/salazar-dark-color-theme.json"
+      },
+      {
+        "label": "Four Founders Salazar Light",
+        "uiTheme": "vs",
+        "path": "./themes/salazar-light-color-theme.json"
+      },
+      {
+        "label": "Four Founders Rowena Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rowena-dark-color-theme.json"
+      },
+      {
+        "label": "Four Founders Rowena Light",
+        "uiTheme": "vs",
+        "path": "./themes/rowena-light-color-theme.json"
+      },
+      {
+        "label": "Four Founders Helga Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/helga-dark-color-theme.json"
+      },
+      {
+        "label": "Four Founders Helga Light",
+        "uiTheme": "vs",
+        "path": "./themes/helga-light-color-theme.json"
+      }
+    ]
+  }
+}
